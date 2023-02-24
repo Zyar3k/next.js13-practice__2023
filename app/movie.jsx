@@ -7,7 +7,7 @@ const Movie = ({ title, id, release_date, poster_path }) => {
     <div>
       <h1>{title}</h1>
       <h2>{release_date}</h2>
-      <Link href={"/asd"}>
+      <Link href={`/${id}`}>
         <Image
           src={imagePath + poster_path}
           width={800}
